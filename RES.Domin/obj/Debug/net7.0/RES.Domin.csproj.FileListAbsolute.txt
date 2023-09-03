@@ -1,0 +1,14 @@
+F:\New folder (2)\Resume\RES.Domin\bin\Debug\net7.0\RES.Domin.deps.json
+F:\New folder (2)\Resume\RES.Domin\bin\Debug\net7.0\RES.Domin.runtimeconfig.json
+F:\New folder (2)\Resume\RES.Domin\bin\Debug\net7.0\RES.Domin.dll
+F:\New folder (2)\Resume\RES.Domin\bin\Debug\net7.0\RES.Domin.pdb
+F:\New folder (2)\Resume\RES.Domin\obj\Debug\net7.0\RES.Domin.csproj.AssemblyReference.cache
+F:\New folder (2)\Resume\RES.Domin\obj\Debug\net7.0\RES.Domin.GeneratedMSBuildEditorConfig.editorconfig
+F:\New folder (2)\Resume\RES.Domin\obj\Debug\net7.0\RES.Domin.AssemblyInfoInputs.cache
+F:\New folder (2)\Resume\RES.Domin\obj\Debug\net7.0\RES.Domin.AssemblyInfo.cs
+F:\New folder (2)\Resume\RES.Domin\obj\Debug\net7.0\RES.Domin.csproj.CoreCompileInputs.cache
+F:\New folder (2)\Resume\RES.Domin\obj\Debug\net7.0\RES.Domin.dll
+F:\New folder (2)\Resume\RES.Domin\obj\Debug\net7.0\refint\RES.Domin.dll
+F:\New folder (2)\Resume\RES.Domin\obj\Debug\net7.0\RES.Domin.pdb
+F:\New folder (2)\Resume\RES.Domin\obj\Debug\net7.0\RES.Domin.genruntimeconfig.cache
+F:\New folder (2)\Resume\RES.Domin\obj\Debug\net7.0\ref\RES.Domin.dll

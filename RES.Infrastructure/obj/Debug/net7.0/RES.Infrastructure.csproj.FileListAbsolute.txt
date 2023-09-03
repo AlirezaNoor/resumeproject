@@ -1,0 +1,17 @@
+F:\New folder (2)\Resume\RES.Infrastructure\bin\Debug\net7.0\RES.Infrastructure.deps.json
+F:\New folder (2)\Resume\RES.Infrastructure\bin\Debug\net7.0\RES.Infrastructure.runtimeconfig.json
+F:\New folder (2)\Resume\RES.Infrastructure\bin\Debug\net7.0\RES.Infrastructure.dll
+F:\New folder (2)\Resume\RES.Infrastructure\bin\Debug\net7.0\RES.Infrastructure.pdb
+F:\New folder (2)\Resume\RES.Infrastructure\bin\Debug\net7.0\RES.Domin.dll
+F:\New folder (2)\Resume\RES.Infrastructure\bin\Debug\net7.0\RES.Domin.pdb
+F:\New folder (2)\Resume\RES.Infrastructure\obj\Debug\net7.0\RES.Infrastructure.csproj.AssemblyReference.cache
+F:\New folder (2)\Resume\RES.Infrastructure\obj\Debug\net7.0\RES.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\New folder (2)\Resume\RES.Infrastructure\obj\Debug\net7.0\RES.Infrastructure.AssemblyInfoInputs.cache
+F:\New folder (2)\Resume\RES.Infrastructure\obj\Debug\net7.0\RES.Infrastructure.AssemblyInfo.cs
+F:\New folder (2)\Resume\RES.Infrastructure\obj\Debug\net7.0\RES.Infrastructure.csproj.CoreCompileInputs.cache
+F:\New folder (2)\Resume\RES.Infrastructure\obj\Debug\net7.0\RES.Infrastructure.csproj.CopyComplete
+F:\New folder (2)\Resume\RES.Infrastructure\obj\Debug\net7.0\RES.Infrastructure.dll
+F:\New folder (2)\Resume\RES.Infrastructure\obj\Debug\net7.0\refint\RES.Infrastructure.dll
+F:\New folder (2)\Resume\RES.Infrastructure\obj\Debug\net7.0\RES.Infrastructure.pdb
+F:\New folder (2)\Resume\RES.Infrastructure\obj\Debug\net7.0\RES.Infrastructure.genruntimeconfig.cache
+F:\New folder (2)\Resume\RES.Infrastructure\obj\Debug\net7.0\ref\RES.Infrastructure.dll

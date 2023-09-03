@@ -1,0 +1,17 @@
+F:\New folder (2)\Resume\RES.Services\bin\Debug\net7.0\RES.Services.deps.json
+F:\New folder (2)\Resume\RES.Services\bin\Debug\net7.0\RES.Services.dll
+F:\New folder (2)\Resume\RES.Services\bin\Debug\net7.0\RES.Services.pdb
+F:\New folder (2)\Resume\RES.Services\bin\Debug\net7.0\RES.Domin.dll
+F:\New folder (2)\Resume\RES.Services\bin\Debug\net7.0\RES.Infrastructure.dll
+F:\New folder (2)\Resume\RES.Services\bin\Debug\net7.0\RES.Infrastructure.pdb
+F:\New folder (2)\Resume\RES.Services\bin\Debug\net7.0\RES.Domin.pdb
+F:\New folder (2)\Resume\RES.Services\obj\Debug\net7.0\RES.Services.csproj.AssemblyReference.cache
+F:\New folder (2)\Resume\RES.Services\obj\Debug\net7.0\RES.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\New folder (2)\Resume\RES.Services\obj\Debug\net7.0\RES.Services.AssemblyInfoInputs.cache
+F:\New folder (2)\Resume\RES.Services\obj\Debug\net7.0\RES.Services.AssemblyInfo.cs
+F:\New folder (2)\Resume\RES.Services\obj\Debug\net7.0\RES.Services.csproj.CoreCompileInputs.cache
+F:\New folder (2)\Resume\RES.Services\obj\Debug\net7.0\RES.Services.csproj.CopyComplete
+F:\New folder (2)\Resume\RES.Services\obj\Debug\net7.0\RES.Services.dll
+F:\New folder (2)\Resume\RES.Services\obj\Debug\net7.0\refint\RES.Services.dll
+F:\New folder (2)\Resume\RES.Services\obj\Debug\net7.0\RES.Services.pdb
+F:\New folder (2)\Resume\RES.Services\obj\Debug\net7.0\ref\RES.Services.dll
