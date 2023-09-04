@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using RES.Domin.Identity;
+using RES.Domin.PersonalInformation;
 using RES.Infrastructure.Mapping;
 
 namespace RES.Infrastructure.Context
@@ -11,12 +12,15 @@ namespace RES.Infrastructure.Context
         {
         }
 
+        public DbSet<Personal> Personals { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.ApplyConfiguration(new ApplicationUserMapping());
             modelBuilder.ApplyConfiguration(new ApplicatrionRoleMapping());
+            modelBuilder.ApplyConfiguration(new PersonalsMapping());
         }
     }
 }

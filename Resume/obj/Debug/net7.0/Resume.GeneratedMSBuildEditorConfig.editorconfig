@@ -16,8 +16,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\New folder (2)\Resume\Resume
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/New folder (2)/Resume/Resume/Areas/Administrator/Views/AdminHome/EditedPersonalinfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xBZG1pbkhvbWVcRWRpdGVkUGVyc29uYWxpbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/New folder (2)/Resume/Resume/Areas/Administrator/Views/AdminHome/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xBZG1pbkhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/New folder (2)/Resume/Resume/Areas/Administrator/Views/AdminHome/personalinformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xBZG1pbkhvbWVccGVyc29uYWxpbmZvcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/New folder (2)/Resume/Resume/Areas/Administrator/Views/Shared/Error.cshtml]

@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "F:\\New folder (2)\\Resume\\Resume\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ResumeHostservices.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ResumeHostservices.bundle.scp.css"
+      "Id": "F:\\New folder (2)\\Resume\\Resume\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Resume.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Resume.bundle.scp.css"
     },
     {
       "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\css\\site.css",
@@ -879,6 +879,22 @@
     {
       "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\vaziat_5157.PNG",
+      "PackagePath": "staticwebassets\\img\\vaziat_5157.PNG"
+    },
+    {
+      "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\گزارش_1c06.PNG",
+      "PackagePath": "staticwebassets\\img\\گزارش_1c06.PNG"
+    },
+    {
+      "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\گزارش_9522.PNG",
+      "PackagePath": "staticwebassets\\img\\گزارش_9522.PNG"
+    },
+    {
+      "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\گزارش_d840.PNG",
+      "PackagePath": "staticwebassets\\img\\گزارش_d840.PNG"
     },
     {
       "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\js\\site.js",
@@ -3917,20 +3933,20 @@
       "PackagePath": "staticwebassets\\plugins\\timepicker\\bootstrap-timepicker.min.js"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ResumeHostservices.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Resume.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ResumeHostservices.props",
-      "PackagePath": "build\\ResumeHostservices.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Resume.props",
+      "PackagePath": "build\\Resume.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ResumeHostservices.props",
-      "PackagePath": "buildMultiTargeting\\ResumeHostservices.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Resume.props",
+      "PackagePath": "buildMultiTargeting\\Resume.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ResumeHostservices.props",
-      "PackagePath": "buildTransitive\\ResumeHostservices.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Resume.props",
+      "PackagePath": "buildTransitive\\Resume.props"
     }
   ],
   "ElementsToRemove": []

@@ -266,3 +266,5 @@ F:\New folder (2)\Resume\Resume\obj\Debug\net7.0\refint\ResumeHostservices.dll
 F:\New folder (2)\Resume\Resume\obj\Debug\net7.0\ResumeHostservices.pdb
 F:\New folder (2)\Resume\Resume\obj\Debug\net7.0\ResumeHostservices.genruntimeconfig.cache
 F:\New folder (2)\Resume\Resume\obj\Debug\net7.0\ref\ResumeHostservices.dll
+F:\New folder (2)\Resume\Resume\bin\Debug\net7.0\RES.ApplicationContract.dll
+F:\New folder (2)\Resume\Resume\bin\Debug\net7.0\RES.ApplicationContract.pdb

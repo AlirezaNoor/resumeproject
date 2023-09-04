@@ -1,4 +1,5 @@
 ﻿using RES.Domin.Identity;
+using RES.Domin.PersonalInformation;
 using RES.Infrastructure.Context;
 using RES.Services.Interface;
 
@@ -9,6 +10,7 @@ namespace RES.Services.Class
         private readonly ApplicationDbContext _context;
         private GenericReposetory<ApplicationUser> _applicationuser;
         private GenericReposetory<ApplicationRole> _applicvationrole;
+        private GenericReposetory<Personal> _personal;
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
@@ -37,6 +39,18 @@ namespace RES.Services.Class
                 }
 
                 return _applicvationrole;
+            }
+        }
+
+        public GenericReposetory<Personal> PersonalUW
+        {
+            get
+            {
+                if (_personal==null)
+                {
+                    _personal = new GenericReposetory<Personal>(_context);
+                }
+                return _personal;
             }
         }
 

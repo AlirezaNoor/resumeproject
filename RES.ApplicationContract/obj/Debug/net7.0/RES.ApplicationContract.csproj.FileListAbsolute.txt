@@ -1,0 +1,12 @@
+F:\New folder (2)\Resume\RES.ApplicationContract\bin\Debug\net7.0\RES.ApplicationContract.deps.json
+F:\New folder (2)\Resume\RES.ApplicationContract\bin\Debug\net7.0\RES.ApplicationContract.dll
+F:\New folder (2)\Resume\RES.ApplicationContract\bin\Debug\net7.0\RES.ApplicationContract.pdb
+F:\New folder (2)\Resume\RES.ApplicationContract\obj\Debug\net7.0\RES.ApplicationContract.csproj.AssemblyReference.cache
+F:\New folder (2)\Resume\RES.ApplicationContract\obj\Debug\net7.0\RES.ApplicationContract.GeneratedMSBuildEditorConfig.editorconfig
+F:\New folder (2)\Resume\RES.ApplicationContract\obj\Debug\net7.0\RES.ApplicationContract.AssemblyInfoInputs.cache
+F:\New folder (2)\Resume\RES.ApplicationContract\obj\Debug\net7.0\RES.ApplicationContract.AssemblyInfo.cs
+F:\New folder (2)\Resume\RES.ApplicationContract\obj\Debug\net7.0\RES.ApplicationContract.csproj.CoreCompileInputs.cache
+F:\New folder (2)\Resume\RES.ApplicationContract\obj\Debug\net7.0\RES.ApplicationContract.dll
+F:\New folder (2)\Resume\RES.ApplicationContract\obj\Debug\net7.0\refint\RES.ApplicationContract.dll
+F:\New folder (2)\Resume\RES.ApplicationContract\obj\Debug\net7.0\RES.ApplicationContract.pdb
+F:\New folder (2)\Resume\RES.ApplicationContract\obj\Debug\net7.0\ref\RES.ApplicationContract.dll

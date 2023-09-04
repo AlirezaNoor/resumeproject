@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResumeHostservices", "Resume\ResumeHostservices.csproj", "{E0D56809-8CD4-4FBB-BBD4-C7854A09BC61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resume", "Resume\Resume.csproj", "{E0D56809-8CD4-4FBB-BBD4-C7854A09BC61}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RES.Domin", "RES.Domin\RES.Domin.csproj", "{74C88DF2-5EC7-4572-B702-458504F5C848}"
 EndProject
@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RES.FrameWorke", "RES.Frame
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RES.Services", "RES.Services\RES.Services.csproj", "{823A85F1-B590-4968-A00A-61B78E1758A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RES.ApplicationContract", "RES.ApplicationContract\RES.ApplicationContract.csproj", "{75A1F0ED-819D-4E14-9F1F-44375CB91D5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RES.ApplicationContract", "RES.ApplicationContract\RES.ApplicationContract.csproj", "{75A1F0ED-819D-4E14-9F1F-44375CB91D5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

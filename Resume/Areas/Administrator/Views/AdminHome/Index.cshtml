@@ -1,5 +1,18 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model RES.Domin.PersonalInformation.Personal
+<div class="card-body table-responsive p-0">
+    <table class="table table-hover">
+        <tr>
+             <th>نام کاربر</th>
+            <th>تخصص</th>
+            <th>ایمیل</th>
+            <th>عملیات</th>
+        </tr>
+        <tr>
+             <td> @Model.Name</td>
+            <td>@Model.Expertise</td>
+            <td><span class="badge badge-success">@Model.Email</span></td>
+            <td><a href="/Administrator/AdminHome/EditedPersonalinfo/@Model.Id/"  class="btn btn-secondary">ویرایش اطلاعات</a></td>
+        </tr>
+ 
+    </table>
+</div>

@@ -29,7 +29,7 @@ namespace RES.Services.Class
 
         public virtual void update(TE e)
         {
-            _context.Attach(e);
+            _table.Attach(e);
             _context.Entry(e).State= EntityState.Modified;
         }
 
