@@ -3,8 +3,10 @@ using RES.Domin.Identity;
 using RES.FrameWorke;
 using RES.Infrastructure.Context;
 using RES.Services.Class;
+using RES.Services.Class.CustomRepository;
 using RES.Services.Class.UploadFile;
 using RES.Services.Interface;
+using RES.Services.Interface.CustomRepository;
 using RES.Services.Interface.UploadFile;
 
 namespace Resume
@@ -34,7 +36,8 @@ namespace Resume
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<ITransation, Transation>();
             builder.Services.AddScoped<IFilenames, Filenames>();
-
+            builder.Services.AddScoped<IUplodCvFile, UplodCvFile>();
+            builder.Services.AddScoped<IIdoRepository, IdoRepository>();
             #endregion
 
             builder.Services.AddControllersWithViews();

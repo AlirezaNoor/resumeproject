@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using RES.Domin.Aboutsme;
 using RES.Domin.Identity;
 using RES.Domin.PersonalInformation;
+using RES.Domin.Whatido;
 using RES.Infrastructure.Mapping;
 
 namespace RES.Infrastructure.Context
@@ -13,6 +15,8 @@ namespace RES.Infrastructure.Context
         }
 
         public DbSet<Personal> Personals { get; set; }
+        public DbSet<aboutme> aboutme { get; set; }
+        public DbSet<Ido> ido { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -21,6 +25,8 @@ namespace RES.Infrastructure.Context
             modelBuilder.ApplyConfiguration(new ApplicationUserMapping());
             modelBuilder.ApplyConfiguration(new ApplicatrionRoleMapping());
             modelBuilder.ApplyConfiguration(new PersonalsMapping());
+            modelBuilder.ApplyConfiguration(new aboutmemapping());
+            modelBuilder.ApplyConfiguration(new IdoMapping());
         }
     }
 }

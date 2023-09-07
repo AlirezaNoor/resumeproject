@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Resume.bundle.scp.css"
     },
     {
+      "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\Cv\\MyCv.pdf",
+      "PackagePath": "staticwebassets\\Cv\\MyCv.pdf"
+    },
+    {
       "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -881,8 +885,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\Tag_3886.png",
+      "PackagePath": "staticwebassets\\img\\Tag_3886.png"
+    },
+    {
+      "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\Tag_67c3.png",
+      "PackagePath": "staticwebassets\\img\\Tag_67c3.png"
+    },
+    {
       "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\vaziat_5157.PNG",
       "PackagePath": "staticwebassets\\img\\vaziat_5157.PNG"
+    },
+    {
+      "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\گزارش.PNG",
+      "PackagePath": "staticwebassets\\img\\گزارش.PNG"
     },
     {
       "Id": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\گزارش_1c06.PNG",

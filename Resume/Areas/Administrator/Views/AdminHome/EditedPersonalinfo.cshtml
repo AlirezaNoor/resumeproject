@@ -2,94 +2,123 @@
 @{
 
 }
+ 
 
 <section class="content">
 
     <div class="container-fluid">
 
-        <form asp-area="Administrator"  asp-action="EditedPersonalinfo" method="post" enctype="multipart/form-data">
-            <input asp-for="Id" hidden="">
+        <form method="post" asp-area="Administrator" asp-action="EditedPersonalinfo" enctype="multipart/form-data">
+
 
             <div class="row">
-                <div class="form-group">
-                    <label>  نام</label>
+                <div class="crad-body">
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label> نام</label>
 
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-address-book-o"></i></span>
+                            <div class="input-group">
+                                <input asp-for="Id" hidden/>
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-address-book-o"></i></span>
+                                </div>
+                                <input type="text" class="form-control ltr" asp-for="Name" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
+                            </div>
+                            <!-- /.input group -->
                         </div>
-                        <input type="text" class="form-control ltr" asp-for="Name" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
-                    </div>
-                    <!-- /.input group -->
-                </div>
-                <div class="form-group">
-                    <label>تخصص</label>
 
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-handshake"></i></span>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label>تخصص</label>
+
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-handshake"></i></span>
+                                </div>
+                                <input type="text" asp-for="Expertise" class="form-control ltr" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
+                            </div>
+                            <!-- /.input group -->
                         </div>
-                        <input type="text" asp-for="Expertise" class="form-control ltr" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
-                    </div>
-                    <!-- /.input group -->
-                </div>
-                <div class="form-group">
-                    <label> تاریخ تولد</label>
 
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label> تاریخ تولد</label>
+
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                </div>
+                                <input type="text" class="form-control ltr" asp-for="BrithdatDateTime" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
+                            </div>
+                            <!-- /.input group -->
                         </div>
-                        <input type="text" class="form-control ltr" asp-for="BrithdatDateTime" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
-                    </div>
-                    <!-- /.input group -->
-                </div>
-                <div class="form-group">
-                    <label> آدرس</label>
 
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-address-book"></i></span>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label> آدرس</label>
+
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-address-book"></i></span>
+                                </div>
+                                <input type="text" asp-for="Adress" class="form-control ltr" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
+                            </div>
+                            <!-- /.input group -->
                         </div>
-                        <input type="text" asp-for="Adress" class="form-control ltr" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
-                    </div>
-                    <!-- /.input group -->
-                </div>
-                <div class="form-group">
-                    <label>ایمیل</label>
 
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-address-card"></i></span>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label>ایمیل</label>
+
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-address-card"></i></span>
+                                </div>
+                                <input type="text" asp-for="Email" class="form-control ltr" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
+                            </div>
+                            <!-- /.input group -->
                         </div>
-                        <input type="text" asp-for="Email" class="form-control ltr" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
-                    </div>
-                    <!-- /.input group -->
-                </div>
-                <div class="form-group">
-                    <label> اسکایپ</label>
 
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-skype"></i></span>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label> اسکایپ</label>
+
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-skype"></i></span>
+                                </div>
+                                <input asp-for="skype" type="text" class="form-control ltr" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
+                            </div>
+                            <!-- /.input group -->
                         </div>
-                        <input asp-for="skype" type="text" class="form-control ltr" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask="">
-                    </div>
-                    <!-- /.input group -->
-                </div>
-                <div class="form-group">
-                    <label> عکس</label>
 
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label> عکس</label>
+
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                </div>
+                                <input type="file" asp-for="Image" class="form-control ltr">
+                            </div>
+                            <!-- /.input group -->
                         </div>
-                        <input type="file" asp-for="Image" class="form-control ltr">
-                    </div>
-                    <!-- /.input group -->
-                </div>
-                <input class="btn btn-danger" type="submit" />
 
+                    </div>
+                    <div class="col-md-3">
+
+                        <input class="btn btn-danger" type="submit" />
+                    </div>
+
+
+                </div>
             </div>
 
         </form>

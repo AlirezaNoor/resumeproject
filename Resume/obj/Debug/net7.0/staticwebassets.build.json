@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0qkisdLBB8wl3QFoFlb951VXTEZe10DLxqbhZ6fhSns=",
+  "Hash": "F4iE8mz8Z3L53vTG27+z4cNm4WLQxpM8A6Dwzu9JIC0=",
   "Source": "Resume",
   "BasePath": "_content/Resume",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\Cv\\MyCv.pdf",
+      "SourceId": "Resume",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\",
+      "BasePath": "_content/Resume",
+      "RelativePath": "Cv/MyCv.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Cv\\MyCv.pdf"
     },
     {
       "Identity": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\dist\\css\\adminlte.css",
@@ -3774,6 +3791,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\Tag_3886.png",
+      "SourceId": "Resume",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\",
+      "BasePath": "_content/Resume",
+      "RelativePath": "img/Tag_3886.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Tag_3886.png"
+    },
+    {
+      "Identity": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\Tag_67c3.png",
+      "SourceId": "Resume",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\",
+      "BasePath": "_content/Resume",
+      "RelativePath": "img/Tag_67c3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Tag_67c3.png"
+    },
+    {
       "Identity": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\vaziat_5157.PNG",
       "SourceId": "Resume",
       "SourceType": "Discovered",
@@ -3789,6 +3840,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\vaziat_5157.PNG"
+    },
+    {
+      "Identity": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\گزارش.PNG",
+      "SourceId": "Resume",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\",
+      "BasePath": "_content/Resume",
+      "RelativePath": "img/گزارش.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\گزارش.PNG"
     },
     {
       "Identity": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\گزارش_1c06.PNG",

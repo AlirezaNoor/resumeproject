@@ -1,5 +1,7 @@
-﻿using RES.Domin.Identity;
+﻿using RES.Domin.Aboutsme;
+using RES.Domin.Identity;
 using RES.Domin.PersonalInformation;
+using RES.Domin.Whatido;
 using RES.Infrastructure.Context;
 using RES.Services.Interface;
 
@@ -11,6 +13,8 @@ namespace RES.Services.Class
         private GenericReposetory<ApplicationUser> _applicationuser;
         private GenericReposetory<ApplicationRole> _applicvationrole;
         private GenericReposetory<Personal> _personal;
+        private GenericReposetory<aboutme> _abouteme;
+        private GenericReposetory<Ido> _ido;
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
@@ -54,6 +58,30 @@ namespace RES.Services.Class
             }
         }
 
+        public GenericReposetory<aboutme> aboutmeUw
+        {
+            get
+            {
+                if (_abouteme==null)
+                {
+                    _abouteme = new GenericReposetory<aboutme>(_context);
+                }
+                return _abouteme;
+            }
+        }
+
+        public GenericReposetory<Ido> IdoUW
+        {
+            get
+            {
+                if (_ido==null)
+                {
+                    _ido = new GenericReposetory<Ido>(_context);
+                }
+
+                return _ido;
+            }
+        }
         public void save()
         {
             _context.SaveChanges();

@@ -9,10 +9,7 @@ namespace RES.Services.Class.UploadFile
         public string imagename(string fileName)
         {
             fileName = Path.GetFileName(fileName);
-            return Path.GetFileNameWithoutExtension(fileName)
-                   + "_"
-                   + Guid.NewGuid().ToString().Substring(0, 4)
-                   + Path.GetExtension(fileName);
+            return fileName;
         }
 
 

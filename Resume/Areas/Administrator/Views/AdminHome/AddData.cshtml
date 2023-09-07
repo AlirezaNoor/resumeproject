@@ -1,0 +1,103 @@
+﻿
+<div class="page-wrapper">
+    <div class="content">
+
+        <div class="card">
+            <div class="card-header text-center">
+                <h4>کارهایی که انجام میدیم</h4>
+            </div>
+
+            <div class="card-body">
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-3">
+                            <span class="input-group-text">موضوع </span>
+
+                            <input type="text" id="textInput1" placeholder="Enter a value">
+                        </div>
+                        <div class="col-3">
+                            <span class="input-group-text">توضیحات </span>
+
+                            <input type="text" id="additionalInput2" placeholder="Additional Input">
+                        </div>
+                        <div class="col-3">
+                            <span class="input-group-text">کلاس آیکون </span>
+
+                            <input type="text" id="additionalInput3" placeholder="Additional Input">
+                        </div>
+                    </div>
+                    <button id="addButton">Add</button>
+                    <table id="contentTable" class=" table table-bordered">
+                        <thead>
+                            <tr>
+                                <th> موضوع</th>
+                                <th>توضیحات </th>
+                                <th>کلاس</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                    <button id="sendButton">Send Data to Controller</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script src="~/plugins/jquery/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#addButton').click(function () {
+ 
+            var inputValue1 = $('#textInput1').val();
+            var additionalInputValue2 = $('#additionalInput2').val();
+            var additionalInputValue3 = $('#additionalInput3').val();
+ 
+                var newRow = '<tr><td>' + inputValue1 + '</td><td>' + additionalInputValue2 + '</td><td>' + additionalInputValue3 + '</td></tr>';
+                $('#contentTable tbody').append(newRow);
+ 
+        }),
+            $('#sendButton').click(function () {
+                var idoview = [];
+                $('#contentTable tbody tr').each(function () {
+                    var title = $(this).find('td:eq(0)').text();
+                    var descrrripton = $(this).find('td:eq(1)').text();
+                    var img = $(this).find('td:eq(2)').text();
+
+                    var item = {
+                        title: title,
+                        descrrripton: descrrripton,
+                        img: img, // Convert to int
+
+                    }
+
+                    idoview.push(item);
+                });
+
+                console.log(idoview)
+                $.ajax({
+                    url: '/Administrator/AdminHome/AddData', // Replace with your controller's action URL
+                    type: 'POST',
+                    dataType: 'json',
+                    contentType: 'application/json',
+                    data: JSON.stringify(idoview),
+                    success: function (response) {
+                        alert('Data sent successfully!');
+                    },
+                    error: function (error) {
+                        alert('Error sending data: ' + error.statusText);
+                    }
+                });
+            });
+
+
+    });
+</script>
