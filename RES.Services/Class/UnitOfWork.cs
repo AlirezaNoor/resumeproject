@@ -1,6 +1,8 @@
 ﻿using RES.Domin.Aboutsme;
+using RES.Domin.Blog;
 using RES.Domin.Identity;
 using RES.Domin.PersonalInformation;
+using RES.Domin.Skills;
 using RES.Domin.Whatido;
 using RES.Infrastructure.Context;
 using RES.Services.Interface;
@@ -15,6 +17,8 @@ namespace RES.Services.Class
         private GenericReposetory<Personal> _personal;
         private GenericReposetory<aboutme> _abouteme;
         private GenericReposetory<Ido> _ido;
+        private GenericReposetory<Skill> _skill;
+        private GenericReposetory<BlogAgg> _blogg;
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
@@ -80,6 +84,30 @@ namespace RES.Services.Class
                 }
 
                 return _ido;
+            }
+        }
+
+        public GenericReposetory<Skill> skilluw
+        {
+            get
+            {
+                if (_skill==null)
+                {
+                    _skill=new GenericReposetory<Skill>(_context);
+                }
+                return _skill;
+            }
+        }
+
+        public GenericReposetory<BlogAgg> blogAggUW
+        {
+            get
+            {
+                if (_blogg==null)
+                {
+                    _blogg = new GenericReposetory<BlogAgg>(_context);
+                }
+                return _blogg;
             }
         }
         public void save()

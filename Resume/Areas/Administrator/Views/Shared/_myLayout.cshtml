@@ -186,15 +186,15 @@
                                  with font-awesome or any other icon font library -->
 
                             <li class="nav-item">
-                                <a   class="nav-link"  asp-controller="AdminHome" asp-action="Index">
+                                <a class="nav-link" asp-controller="AdminHome" asp-action="Index">
                                     <i class="nav-icon fa fa-th"></i>
                                     <p>
-                                      لیست مشخصات  فردی
-                                     </p>
+                                        لیست مشخصات  فردی
+                                    </p>
                                 </a>
                             </li>
-                        <li class="nav-item has-treeview">
-                                <a  class="nav-link" asp-action="personalinformation">
+                            <li class="nav-item has-treeview">
+                                <a class="nav-link" asp-action="personalinformation">
                                     <i class="nav-icon fa fa-edit"></i>
                                     <p>
                                         ایجاد مشخصات فردی
@@ -204,30 +204,40 @@
 
                             </li>
                             <li class="nav-item has-treeview">
-                                <a  class="nav-link" asp-controller="AdminHome" asp-action="updaodmycvs">
+                                <a class="nav-link" asp-controller="AdminHome" asp-action="updaodmycvs">
                                     <i class="nav-icon fa fa-table"></i>
                                     <p>
                                         اپلود رزمه
                                     </p>
                                 </a>
-                                <li class="nav-item has-treeview">
-                                    <a  class="nav-link" asp-controller="AdminHome" asp-action="aboutme">
-                                        <i class="nav-icon fa fa-street-view"></i>
-                                        <p>
-                                            درباره من
-                                        </p>
-                                    </a>
-                                </li>
-                                <li class="nav-item has-treeview">
-                                    <a  class="nav-link" asp-controller="AdminHome" asp-action="aboutme">
-                                    <i class="nav-icon fa fa-bullhorn"></i>
-                                        <p>
-                                            حوزه فعالیتم
-
-                                        </p>
-                                    </a>
-                                </li>
+                            <li class="nav-item has-treeview">
+                                <a class="nav-link" asp-controller="AdminHome" asp-action="aboutme">
+                                    <i class="nav-icon fa fa-street-view"></i>
+                                    <p>
+                                        درباره من
+                                    </p>
+                                </a>
                             </li>
+                            <li class="nav-item has-treeview">
+                                <a class="nav-link" asp-controller="AdminHome" asp-action="AddData">
+                                    <i class="nav-icon fa fa-bullhorn"></i>
+                                    <p>
+                                        حوزه فعالیتم
+
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item has-treeview">
+                                <a class="nav-link" asp-controller="AdminHome" asp-action="skillaction">
+                                    <i class="nav-icon fa fa-area-chart"></i>
+                                    <p>
+                                        توانایی
+                                    </p>
+                                </a>
+                            </li>
+
+                            </li>
+
                             <li class="nav-header">مثال‌ها</li>
                             <li class="nav-item">
                                 <a href="pages/calendar.html" class="nav-link">
@@ -388,9 +398,7 @@
         </footer>
 
         <!-- Control Sidebar -->
-
-
-    <!-- /.control-sidebar -->
+        <!-- /.control-sidebar -->
     </div>
     <!-- ./wrapper -->
     <!-- jQuery -->
@@ -401,7 +409,7 @@
     <script>
         $.widget.bridge('uibutton', $.ui.button)
     </script>
-<!-- Bootstrap 4 -->
+    <!-- Bootstrap 4 -->
     <script src="~/dist/js/plugins/jquery/jquery.min.js"></script>
 
     <script src="~/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>

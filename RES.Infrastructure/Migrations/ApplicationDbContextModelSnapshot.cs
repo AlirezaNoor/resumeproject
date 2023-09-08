@@ -145,6 +145,34 @@ namespace RES.Infrastructure.Migrations
                     b.ToTable("about", (string)null);
                 });
 
+            modelBuilder.Entity("RES.Domin.Blog.BlogAgg", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("descrrpition")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("img")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("tiltle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("time")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Blog");
+                });
+
             modelBuilder.Entity("RES.Domin.Identity.ApplicationRole", b =>
                 {
                     b.Property<string>("Id")
@@ -279,6 +307,26 @@ namespace RES.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("personalInformation", (string)null);
+                });
+
+            modelBuilder.Entity("RES.Domin.Skills.Skill", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<int>("ability")
+                        .HasColumnType("int");
+
+                    b.Property<string>("subject")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Skills");
                 });
 
             modelBuilder.Entity("RES.Domin.Whatido.Ido", b =>

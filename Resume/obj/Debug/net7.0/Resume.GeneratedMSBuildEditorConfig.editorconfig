@@ -24,6 +24,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xBZG1pbkhvbWVcQWRkRGF0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/New folder (2)/Resume/Resume/Areas/Administrator/Views/AdminHome/BlogpostList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xBZG1pbkhvbWVcQmxvZ3Bvc3RMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/New folder (2)/Resume/Resume/Areas/Administrator/Views/AdminHome/CreateBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xBZG1pbkhvbWVcQ3JlYXRlQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/New folder (2)/Resume/Resume/Areas/Administrator/Views/AdminHome/EditedPersonalinfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xBZG1pbkhvbWVcRWRpdGVkUGVyc29uYWxpbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/New folder (2)/Resume/Resume/Areas/Administrator/Views/AdminHome/personalinformation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xBZG1pbkhvbWVccGVyc29uYWxpbmZvcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/New folder (2)/Resume/Resume/Areas/Administrator/Views/AdminHome/skillaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xBZG1pbkhvbWVcc2tpbGxhY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/New folder (2)/Resume/Resume/Areas/Administrator/Views/AdminHome/updaodmycvs.cshtml]

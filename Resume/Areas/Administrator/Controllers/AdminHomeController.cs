@@ -1,14 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RES.ApplicationContract.About;
+ using RES.ApplicationContract.blogs;
 using RES.ApplicationContract.Idowhat;
 using RES.ApplicationContract.PersonalInformation;
 using RES.Domin.Aboutsme;
+using RES.Domin.Blog;
 using RES.Domin.PersonalInformation;
+using RES.Domin.Skills;
 using RES.Domin.Whatido;
 using RES.Services.Class.CustomRepository;
 using RES.Services.Interface;
 using RES.Services.Interface.CustomRepository;
 using RES.Services.Interface.UploadFile;
+using Resume.Models;
 
 namespace Resume.Areas.Administrator.Controllers
 {
@@ -209,6 +213,63 @@ namespace Resume.Areas.Administrator.Controllers
 
             return RedirectToAction("Index");
         }
+        [Route("Administrator/AdminHome/skillaction")]
+        public IActionResult skillaction()
+        {
+          
+          skillView e=new();
+          e.List= _context.skilluw.Get().ToList();
+            return View(e);
+        }
+        [HttpPost]
+        [Route("Administrator/AdminHome/skillaction")]
 
+        public IActionResult skillaction(skillView e)
+        {
+            Skill s = new()
+            {
+                subject = e.Skill.subject,
+                ability = e.Skill.ability,
+            };
+        _context.skilluw.insert(s);
+        _context.save();
+        return RedirectToAction("skillaction");
+        }
+        
+        [Route("Administrator/AdminHome/skilldel")]
+        public IActionResult skilldel(long id)
+
+        {
+            var tesrt = _context.skilluw.getbyid(id);
+            _context.skilluw.Delete(tesrt);
+            _context.save();
+            return RedirectToAction("skillaction");
+        }
+        [Route("Administrator/AdminHome/BlogpostList")]
+
+        public IActionResult BlogpostList()
+        {
+            return View(_context.blogAggUW.Get().ToList());
+        }
+        [Route("Administrator/AdminHome/CreateBlog")]
+
+        public IActionResult CreateBlog()
+        { return View();
+        }
+        [HttpPost]
+        [Route("Administrator/AdminHome/CreateBlog")]
+        public IActionResult CreateBlog(CreateBlogview e)
+        {
+            BlogAgg b = new()
+            {
+                tiltle = e.tiltle,
+                descrrpition = e.descrrpition,
+                time = DateTime.Now,
+                img = _filenames.UploadFile(e.img)
+            };
+            _context.blogAggUW.insert(b);
+            _context.save();
+            return RedirectToAction("BlogpostList");
+        }
     }
 }
