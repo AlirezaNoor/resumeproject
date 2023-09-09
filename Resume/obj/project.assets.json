@@ -4304,6 +4304,19 @@
           "bin/placeholder/RES.Infrastructure.dll": {}
         }
       },
+      "RES.Query/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "RES.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RES.Query.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RES.Query.dll": {}
+        }
+      },
       "RES.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -12063,6 +12076,11 @@
       "path": "../RES.Infrastructure/RES.Infrastructure.csproj",
       "msbuildProject": "../RES.Infrastructure/RES.Infrastructure.csproj"
     },
+    "RES.Query/1.0.0": {
+      "type": "project",
+      "path": "../RES.Query/RES.Query.csproj",
+      "msbuildProject": "../RES.Query/RES.Query.csproj"
+    },
     "RES.Services/1.0.0": {
       "type": "project",
       "path": "../RES.Services/RES.Services.csproj",
@@ -12080,6 +12098,7 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.9",
       "RES.ApplicationContract >= 1.0.0",
       "RES.FrameWorke >= 1.0.0",
+      "RES.Query >= 1.0.0",
       "RES.Services >= 1.0.0"
     ]
   },
@@ -12115,6 +12134,9 @@
             },
             "F:\\New folder (2)\\Resume\\RES.FrameWorke\\RES.FrameWorke.csproj": {
               "projectPath": "F:\\New folder (2)\\Resume\\RES.FrameWorke\\RES.FrameWorke.csproj"
+            },
+            "F:\\New folder (2)\\Resume\\RES.Query\\RES.Query.csproj": {
+              "projectPath": "F:\\New folder (2)\\Resume\\RES.Query\\RES.Query.csproj"
             },
             "F:\\New folder (2)\\Resume\\RES.Services\\RES.Services.csproj": {
               "projectPath": "F:\\New folder (2)\\Resume\\RES.Services\\RES.Services.csproj"

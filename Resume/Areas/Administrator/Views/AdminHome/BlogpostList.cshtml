@@ -19,25 +19,24 @@
             <table class="table table-hover">
                 <tbody>
                     <tr>
-                         <th>موضوع </th>
+                        <th>موضوع </th>
                         <th>تاریخ</th>
                         <th>عملیات</th>
-                       
+
                     </tr>
-@foreach (var i in @Model)
-{
-    <tr>
-        <td>@i.tiltle</td>
-        <td>@i.time</td>
-        <td>
-            <a  placeholder="ویرایش" />a>
-            <a class="btn btn-block btn-primary btn-sm">ویرایش</a>
-            <a class="btn btn-block btn-danger btn-sm">حذف</a>
-        </td>
+                    @foreach (var i in @Model)
+                    {
+                        <tr>
+                            <td>@i.tiltle</td>
+                            <td>@i.time</td>
+                            <td>
+                                <a class="btn btn-block btn-primary btn-sm">ویرایش</a>
+                                <a class="btn btn-block btn-danger btn-sm">حذف</a>
+                            </td>
 
-    </tr>
+                        </tr>
 
-} 
+                    }
                 </tbody>
             </table>
         </div>

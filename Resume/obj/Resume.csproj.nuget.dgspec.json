@@ -308,6 +308,64 @@
         }
       }
     },
+    "F:\\New folder (2)\\Resume\\RES.Query\\RES.Query.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\New folder (2)\\Resume\\RES.Query\\RES.Query.csproj",
+        "projectName": "RES.Query",
+        "projectPath": "F:\\New folder (2)\\Resume\\RES.Query\\RES.Query.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\New folder (2)\\Resume\\RES.Query\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\New folder (2)\\Resume\\RES.Services\\RES.Services.csproj": {
+                "projectPath": "F:\\New folder (2)\\Resume\\RES.Services\\RES.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "F:\\New folder (2)\\Resume\\RES.Services\\RES.Services.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -409,6 +467,9 @@
               },
               "F:\\New folder (2)\\Resume\\RES.FrameWorke\\RES.FrameWorke.csproj": {
                 "projectPath": "F:\\New folder (2)\\Resume\\RES.FrameWorke\\RES.FrameWorke.csproj"
+              },
+              "F:\\New folder (2)\\Resume\\RES.Query\\RES.Query.csproj": {
+                "projectPath": "F:\\New folder (2)\\Resume\\RES.Query\\RES.Query.csproj"
               },
               "F:\\New folder (2)\\Resume\\RES.Services\\RES.Services.csproj": {
                 "projectPath": "F:\\New folder (2)\\Resume\\RES.Services\\RES.Services.csproj"

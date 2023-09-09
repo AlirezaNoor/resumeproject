@@ -268,3 +268,5 @@ F:\New folder (2)\Resume\Resume\bin\Debug\net7.0\RES.ApplicationContract.dll
 F:\New folder (2)\Resume\Resume\bin\Debug\net7.0\RES.Services.dll
 F:\New folder (2)\Resume\Resume\bin\Debug\net7.0\RES.ApplicationContract.pdb
 F:\New folder (2)\Resume\Resume\bin\Debug\net7.0\RES.Services.pdb
+F:\New folder (2)\Resume\Resume\bin\Debug\net7.0\RES.Query.dll
+F:\New folder (2)\Resume\Resume\bin\Debug\net7.0\RES.Query.pdb

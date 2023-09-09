@@ -32,6 +32,7 @@
   <ItemGroup>
     <ProjectReference Include="..\RES.ApplicationContract\RES.ApplicationContract.csproj" />
     <ProjectReference Include="..\RES.FrameWorke\RES.FrameWorke.csproj" />
+    <ProjectReference Include="..\RES.Query\RES.Query.csproj" />
     <ProjectReference Include="..\RES.Services\RES.Services.csproj" />
   </ItemGroup>
 

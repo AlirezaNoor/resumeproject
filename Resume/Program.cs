@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Identity;
 using RES.Domin.Identity;
 using RES.FrameWorke;
 using RES.Infrastructure.Context;
+using RES.Query.Queryclass;
+using RES.Query.QueryInterface;
 using RES.Services.Class;
 using RES.Services.Class.CustomRepository;
 using RES.Services.Class.UploadFile;
@@ -38,6 +40,7 @@ namespace Resume
             builder.Services.AddScoped<IFilenames, Filenames>();
             builder.Services.AddScoped<IUplodCvFile, UplodCvFile>();
             builder.Services.AddScoped<IIdoRepository, IdoRepository>();
+            builder.Services.AddScoped<IRsumeQuery, RsumeQuery>();
             #endregion
 
             builder.Services.AddControllersWithViews();

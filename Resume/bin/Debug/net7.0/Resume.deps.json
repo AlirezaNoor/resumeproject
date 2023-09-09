@@ -17,6 +17,7 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.9",
           "RES.ApplicationContract": "1.0.0",
           "RES.FrameWorke": "1.0.0",
+          "RES.Query": "1.0.0",
           "RES.Services": "1.0.0"
         },
         "runtime": {
@@ -2709,6 +2710,14 @@
           "RES.Infrastructure.dll": {}
         }
       },
+      "RES.Query/1.0.0": {
+        "dependencies": {
+          "RES.Services": "1.0.0"
+        },
+        "runtime": {
+          "RES.Query.dll": {}
+        }
+      },
       "RES.Services/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting": "2.2.7",
@@ -4459,6 +4468,11 @@
       "sha512": ""
     },
     "RES.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RES.Query/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

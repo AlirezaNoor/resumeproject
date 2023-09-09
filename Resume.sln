@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RES.Services", "RES.Service
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RES.ApplicationContract", "RES.ApplicationContract\RES.ApplicationContract.csproj", "{75A1F0ED-819D-4E14-9F1F-44375CB91D5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RES.Query", "RES.Query\RES.Query.csproj", "{38736724-39B9-4A39-BB04-C295B54A9972}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{75A1F0ED-819D-4E14-9F1F-44375CB91D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75A1F0ED-819D-4E14-9F1F-44375CB91D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75A1F0ED-819D-4E14-9F1F-44375CB91D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38736724-39B9-4A39-BB04-C295B54A9972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38736724-39B9-4A39-BB04-C295B54A9972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38736724-39B9-4A39-BB04-C295B54A9972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38736724-39B9-4A39-BB04-C295B54A9972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
