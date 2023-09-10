@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using RES.Domin.Identity;
 using RES.FrameWorke;
@@ -42,7 +43,13 @@ namespace Resume
             builder.Services.AddScoped<IIdoRepository, IdoRepository>();
             builder.Services.AddScoped<IRsumeQuery, RsumeQuery>();
             #endregion
-
+            builder.Services.ConfigureApplicationCookie(options =>
+                {
+                    options.LoginPath = "/Administrator/Account/index";
+                    options.LogoutPath = "/Administrator/Account/Logout";
+                }
+            
+            );
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
@@ -58,8 +65,8 @@ namespace Resume
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
-
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

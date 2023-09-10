@@ -1,0 +1,28 @@
+﻿@model List<RES.Query.Query_models.Skillviewmodel>
+<div class="content" data-simplebar>
+	<div class="section mt-0">
+		<h1 class="title title--h1 title__separate">Resume</h1>
+	</div>
+
+	<!-- Experience -->
+ 
+
+	<!-- Skills -->
+	<div class="section">
+		<h2 class="title title--h2">My Skills</h2>
+		<div class="box-gray">
+			<!-- Progress -->
+		@foreach (var i in Model)
+		{
+		    <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="@i.ability" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-text"><span>@i.subject</span><span>@i.ability%</span></div>
+                </div>
+                <div class="progress-text"><span>@i.subject</span></div>
+            </div>
+		}
+
+ 
+		</div>
+	</div>
+</div>

@@ -1,8 +1,34 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model RES.Query.Query_models.AboutmeViewModels
+<div class="content" data-simplebar>
+    <!-- About -->
+    <div class="section mt-0">
+        <h1 class="title title--h1 title__separate">About Me</h1>
+        <div class="pt-2 pt-sm-3">
+            @Html.Raw(@Model.Description)
+        </div>
+    </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <!-- What -->
+    <div class="section">
+        <h2 class="title title--h2">What I'm Doing</h2>
+        <div class="row">
+            <!-- Case Item -->
+            @foreach (var i in @Model.whatidolist)
+            {
+                <div class="col-12 col-lg-6 case-item-wrap">
+                    <div class="case-item">
+                        <li class=" @i.img  " style="    font-size: 55px;"></li>
+                        <h3 class="title title--h3">@i.title</h3>
+                        <p class="case-item__caption">@i.descrrripton </p>
+                    </div>
+                </div>
+
+            }
+
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+
+
 </div>

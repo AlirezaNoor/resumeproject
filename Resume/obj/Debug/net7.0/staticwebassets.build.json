@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GqKdSC+ZsdzzVHFmBIWd5Y4FDcAQIz+KP+Ig7wSmpy8=",
+  "Hash": "EvxciTM5HQkFEpnYS8TYUPhe6Cig73WK1eaqtcUAIas=",
   "Source": "Resume",
   "BasePath": "_content/Resume",
   "Mode": "Default",
@@ -4826,6 +4826,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\balck.jpg",
+      "SourceId": "Resume",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\",
+      "BasePath": "_content/Resume",
+      "RelativePath": "img/balck.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\balck.jpg"
+    },
+    {
+      "Identity": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\ef8p2-1024x576.png",
+      "SourceId": "Resume",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\",
+      "BasePath": "_content/Resume",
+      "RelativePath": "img/ef8p2-1024x576.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\ef8p2-1024x576.png"
     },
     {
       "Identity": "F:\\New folder (2)\\Resume\\Resume\\wwwroot\\img\\Tag_3886.png",

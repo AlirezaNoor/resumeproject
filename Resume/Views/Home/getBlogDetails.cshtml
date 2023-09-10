@@ -1,0 +1,22 @@
+﻿ @model RES.Query.Query_models.Blogviewmodel
+<div class="content" data-simplebar>
+	<!-- Post -->
+	<div class="pb-3">
+        <header class="header-post">
+            <h1 class="title title--h1">@Model.tiltle</h1>
+ 
+            <div class="header-post__image-wrap">
+                <img class="cover lazyload" src="~/img/@Model.img" alt="" />
+            </div>
+        </header>
+ <div>@Html.Raw(@Model.descrrpition)</div>
+ 
+		<footer class="footer-post">
+			<a class="footer-post__share" href="http://facebook.com/"><i class="font-icon icon-facebook"></i><span>Facebook</span></a>
+			<a class="footer-post__share" href="http://twitter.com/"><i class="font-icon icon-twitter"></i><span>Twitter</span></a>
+			<a class="footer-post__share" href="http://linkedin.com/"><i class="font-icon icon-linkedin2"></i><span>Linkedin</span></a>
+		</footer>
+	</div>
+
+ 
+</div><!-- Content End -->

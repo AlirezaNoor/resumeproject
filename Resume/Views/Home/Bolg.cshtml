@@ -1,0 +1,37 @@
+﻿@model List<RES.Query.Query_models.Blogviewmodel>
+<style>
+    .limited-paragraph {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 300px; /* Set your desired width */
+    }
+</style>
+    <div class="content" data-simplebar>
+        <div class="section mt-0">
+            <h1 class="title title--h1 title__separate">Blog</h1>
+        </div>
+
+        <!-- News -->
+        <div class="news-grid section">
+            <!-- Post -->
+            @foreach (var i in Model)
+            {
+
+                <article class="news-item box">
+                    <div class="news-item__image-wrap overlay overlay--45">
+                        <a class="news-item__link" href="@Url.Action("getBlogDetails","Home",new{id=@i.Id})"></a>
+                        <img class="cover lazyload" src="~/img/@i.img" alt="" />
+                    </div>
+                    <div class="news-item__caption">
+                        <h3 class="title title--h3">@i.tiltle</h3>
+                    <p class="limited-paragraphs">   @Html.Raw(@i.descrrpition.Substring(0,200))...</p>
+                    </div>
+                </article>
+            }
+
+
+
+
+        </div>
+    </div><!-- Content End -->

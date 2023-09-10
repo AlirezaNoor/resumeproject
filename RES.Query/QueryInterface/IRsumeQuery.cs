@@ -10,5 +10,9 @@ namespace RES.Query.QueryInterface
     public interface IRsumeQuery
     {
         Personalviewmodel pesonaldtails();
+        AboutmeViewModels dtails();
+        List<Skillviewmodel> skilles();
+        List<Blogviewmodel> getbloglist();
+        Blogviewmodel getblogdetails(long id);
     }
 }

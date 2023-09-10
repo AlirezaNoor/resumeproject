@@ -1,0 +1,84 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model RES.ApplicationContract.Account.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/dist/css/adminlte.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="~/plugins/iCheck/square/blue.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <!-- bootstrap rtl -->
+    <link rel="stylesheet" href="~/dist/css/bootstrap-rtl.min.css">
+    <!-- template rtl version -->
+    <link rel="stylesheet" href="~/dist/css/custom-style.css">
+</head>
+
+<body>
+    <form method="post" asp-controller="Account" asp-action="Index">
+
+
+
+
+        <div class="login-box">
+            <div class="login-logo">
+                <a href="~/index2.html"><b>ورود به سایت</b></a>
+            </div>
+            <!-- /.login-logo -->
+            <div class="card">
+                <div class="card-body login-card-body">
+                    <p class="login-box-msg">فرم زیر را تکمیل کنید و ورود بزنید</p>
+
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" asp-for="Username" placeholder="نام کاربری">
+                        <div class="input-group-append">
+                            <span class="fa fa-envelope input-group-text"></span>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="password" class="form-control" asp-for="Password" placeholder="رمز عبور">
+                        <div class="input-group-append">
+                            <span class="fa fa-lock input-group-text"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="checkbox icheck">
+                                <label>
+                                    <input type="checkbox" asp-for="RememberMe"> یاد آوری من
+                                </label>
+                            </div>
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-4">
+                            <input type="submit" class="btn btn-primary btn-block btn-flat">
+                            <!-- /.col -->
+                        </div>
+
+
+                        <!-- /.social-auth-links -->
+
+
+                    </div>
+                    <!-- /.login-card-body -->
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+

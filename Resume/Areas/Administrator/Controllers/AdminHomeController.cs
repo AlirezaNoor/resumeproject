@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RES.ApplicationContract.About;
  using RES.ApplicationContract.blogs;
 using RES.ApplicationContract.Idowhat;
@@ -17,6 +18,7 @@ using Resume.Models;
 namespace Resume.Areas.Administrator.Controllers
 {
     [Area("Administrator")]
+    [Authorize]
     public class AdminHomeController : Controller
     {
         private readonly IUnitOfWork _context;
